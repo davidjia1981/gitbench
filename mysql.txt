@@ -1,0 +1,28 @@
+SELECT * from coonnectrecipeinfo where NAME LIKE '%黄寒梅%'
+
+SELECT * from coonnectrecipedetails where Zid='30454'
+
+SELECT a.zid,a.Mid,b.CoonectMedciId,b.coonectMedciName,b.MedciName from coonnectrecipedetails a,coonnectmedicinalmaterials b 
+where a.Zid='30897' and a.Mid=b.Id ORDER BY a.Mid
+
+select Id,No,Name,Acronym,Address,Tel,State,Addtime,Remark,discountid,TakeMan,Recipeprice,IfWeixin,Recipepricegf,CF_Acronym,jflx, jfUrl 
+FROM hospitalinfo  where jflx=2 and ConnectionString is not null
+
+6f5547da8e9aee483319116c920dbd15
+
+Install-Package Oracle.ManagedDataAccess -project 1.HX_SYSTEM_CZ.Web -Version 19.3.1 -Source D:\V1.0\packages\Oracle.ManagedDataAccess.19.3.1
+
+Uninstall-Package Oracle.ManagedDataAccess -Force
+
+
+Data Source=(DESCRIPTION =(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.19.248.194)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = Kthis)));User Id=WJJYWP;Password=WJJYWP;Persist Security Info=True;
+
+Data Source=(DESCRIPTION =(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.19.249.34)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = Kthis)));User Id=WJJYWP;Password=WJJYWP;Persist Security Info=True;
+
+Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.19.249.34)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=Kthis)));Persist Security Info=True;User ID=WJJYWP;Password=WJJYWP;
+
+Data Source=(DESCRIPTION =(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.153.100)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME =hap)));User Id=ybfw;Password=ybfw;Persist Security Info=True;
+Data Source=(DESCRIPTION =(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.154.101)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = hap)));User Id=ybfw;Password=ybfw;Persist Security Info=True;
+
+{"English Message : You need to refer to Oracle.ManagedDataAccess.dll\r\nChinese Message : 需要引用ManagedDataAccess.dll，请在Nuget安装最新稳定版本,如果有版本兼容问题请先删除原有引用"}
+20200707 
